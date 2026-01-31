@@ -1,0 +1,12 @@
+<div class="page" @swipe="goBack">
+    <div class="header">
+        <text class="mainTitle">Make a Payment via NFC</text>
+    </div>
+
+    <div class="content">
+        <image class="pulseImg"
+               src="/common/nfc.png"
+               alt="nfc">
+        </image>
+    </div>
+</div>

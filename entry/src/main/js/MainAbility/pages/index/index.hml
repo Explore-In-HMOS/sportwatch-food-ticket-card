@@ -1,0 +1,10 @@
+<div class="page">
+    <div class="header">
+        <text class="mainTitle">Make a Payment</text>
+    </div>
+
+    <div class="divButton">
+        <input class="buttonPayment" type="button" value="via NFC" onclick="goNFC"></input>
+        <input class="buttonPayment" type="button" value="via QR Code" onclick="goQR"></input>
+    </div>
+</div>

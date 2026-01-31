@@ -1,0 +1,11 @@
+<div class="page" @swipe="goBack">
+    <div class="header">
+        <text class="mainTitle">Make a Payment via QR</text>
+    </div>
+
+    <div class="container">
+        <qrcode value="{{qrValue}}" class="qrCode" style="color: {{qrCol}} ;background-color: {{qrBcol}};"></qrcode>
+        <text class="mainTitle">{{codeText}}</text>
+        <progress type="horizontal" percent="{{ percent }}" style="height: 10%;width: 40%; color: {{qr_col}};" onclick = "changeHorizontal"></progress>
+    </div>
+</div>
