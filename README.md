@@ -99,7 +99,7 @@ entry/src/main/js/MainAbility
   - After downloading the wear engine file from the document ([click to visit download page](https://developer.huawei.com/consumer/en/doc/connectivity-Library/litewearable-sdk-cn-0000001705004353)), place it in \entry\src\main\js\MainAbility\wearengine directory.
   - Set signing configs in build.profile.json5 and set package name and fingerprint in constants.
   - Also set your package name in hce.js for hce payment.
-  - Build and run the app on a Huawei lite wearable.
+  - Build and run the app on a Huawei SportWatch.
   - Ensure the sport watch and mobile app are properly paired.
 
 # License
